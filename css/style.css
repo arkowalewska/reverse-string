@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+#container-box {
+    position: absolute;
+    height: 200px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #777;
+    text-align: center;
+}
+
+#container-box #reverse-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-box {
+    display: inline-block;
+}
+
+input {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    margin-bottom: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#to-reverse {
+    width: 300px;
+}
+
+#button-reverse {
+    background-color: #ffef2a;
+    width: 80px;
+    color: #000;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    font-weight: bold;
+}
+
+#button-reverse:hover {
+    background-color: #000;
+    color: #ffef2a;
+}
+
+
+#reverse-result {
+    width: 380px;
+    height: 30px;
+    text-align: center;
+    font-size: 21px;
+    color: yellow;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
